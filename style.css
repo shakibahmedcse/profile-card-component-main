@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;500;700&display=swap');
+/* Global Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+    font-family: 'Heebo', sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+
+img{
+    max-width: 100%;
+}
+
+/* Profile card section start */
+
+.profile_card {
+	background: url(./images/bg-pattern-top.svg),url(./images/bg-pattern-bottom.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: -46px -286px, 737px 250px;
+	background-color: #19a1ad;
+	padding: 120px 0px;
+	overflow: hidden;
+}
+.container{
+    display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.profile_card_main {
+	display: inline-block;
+	box-shadow: 0px 0px 46px -18px rgba(0,0,0,0.6);
+	border-radius: 15px !important;
+	overflow: hidden;
+}
+
+.cover_img{}
+.cover_img img{}
+
+.profile_content {
+	background-color: #fff;
+	text-align: center;
+	padding: 2rem 0;
+	margin-top: -4px;
+}
+
+.profile_info {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 2rem;
+}
+.profile_info .profile_img{}
+.profile_info .profile_img img {
+	border-radius: 50%;
+	border: 1px solid #fff;
+	padding: 5px;
+	position: relative;
+	top: -73px;
+	background-color: #fff;
+}
+
+.profile_info .profile_text {
+	margin-top: -50px;
+}
+.profile_info .profile_text h5 {
+	font-size: 2.2rem;
+	color: #2b2b3c;
+	font-weight: 500;
+}
+.profile_info .profile_text h5 span {
+	color: #838286;
+	font-weight: 400;
+	position: relative;
+	left: 5px;
+}
+.profile_info .profile_text p {
+	color: #838286;
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 0.7px;
+	margin-top: 0.7rem;
+}
+
+.profile_followers {
+	display: flex;
+	justify-content: space-evenly;
+    padding-top: 2rem;
+	
+}
+.profile_followers .followers{}
+.profile_followers .followers h3 {
+	font-size: 1.9rem;
+	color: #2b2b3c;
+}
+.profile_followers .followers p {
+	color: #838286;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+
+
+
+
+
+.profile_followers .profile_followers{}
+.profile_followers .profile_followers {}
+
+
+
+
+
